@@ -1,12 +1,16 @@
 library(tidyverse)
 library(readr)
 
+source("utils.R")
+
 # load data
 data_proteome = read_csv('data/77_cancer_proteomes_CPTAC_itraq.csv')
 data_clinical = read_csv('data/clinical_data_breast_cancer.csv')
 list_pam50 = read_csv('data/PAM50_proteins.csv')
 
 # exploratory figures for clinical data
+
+ensure_directory("figures")
 
 pdf(file="figures/exploratory_figs.pdf")
 

@@ -6,7 +6,7 @@ The source data consist of three files: 77_cancer_proteomes_CPTAC_itraq.csv, cli
 
 ## Build and run Docker image
 `docker build . -t bios`<br />
-`docker run --rm -p 8787:8787 -it -v $(pwd):/home/project py /bin/bash`<br />
+`docker run --rm -p 8787:8787 -it -v $(pwd):/home/project bios /bin/bash`<br />
 If not already in it, run `cd home/project` to get in the right directory
 
 ## Running the analysis

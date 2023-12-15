@@ -9,11 +9,11 @@ The source data consist of three files: 77_cancer_proteomes_CPTAC_itraq.csv, cli
 `docker run --rm -p 8787:8787 -it -v $(pwd):/home/project py /bin/bash`
 
 ## Running the analysis
-This project uses Make, which will automatically generate all figures, reports, etc.
+This project uses Make, which will automatically generate all figures, reports, etc.  
 You need to create some folders the first time you use it:
-`make folders`
+`make folders`  
 You can remove any existing outputs with:
-`make clean`
+`make clean`  
 Once that's done, just run:
 `make`
 or

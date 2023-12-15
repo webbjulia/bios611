@@ -5,15 +5,15 @@ This project will explore the public dataset "Breast Cancer Proteomes" from Kagg
 The source data consist of three files: 77_cancer_proteomes_CPTAC_itraq.csv, clinical_data_breast_cancer.csv, and PAM50_proteins.csv.
 
 ## Build and run Docker image
-`docker build . -t bios`
+`docker build . -t bios`<br />
 `docker run --rm -p 8787:8787 -it -v $(pwd):/home/project py /bin/bash`
 
 ## Running the analysis
 This project uses Make, which will automatically generate all figures, reports, etc.  
 You need to create some folders the first time you use it:
-`make folders`  
+`make folders`<br />
 You can remove any existing outputs with:
-`make clean`  
+`make clean`<br />
 Once that's done, just run:
 `make`
 or

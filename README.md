@@ -1,4 +1,4 @@
-# Hi, this is my 611 Data Science Project. More to come.
+# Hi, this is my 611 Data Science Project.
 
 This project will explore the public dataset "Breast Cancer Proteomes" from Kaggle (https://www.kaggle.com/datasets/piotrgrabo/breastcancerproteomes/data) , which features proteome profiling of 77 breast cancer patients.
 

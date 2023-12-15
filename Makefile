@@ -14,6 +14,7 @@ all : $(figs) report.pdf
 clean:
 	rm figures/*
 	rm processed.csv
+	rm report.pdf
 
 folders:
 	mkdir figures

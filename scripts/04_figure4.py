@@ -66,4 +66,4 @@ plt.title(
 plt.xlabel("{}% of variance".format(pc1))
 plt.ylabel("{}% of variance".format(pc2))
 
-plt.savefig('figures/figure4.pdf',format='pdf')
+plt.savefig('figures/figure4.png',format='png')

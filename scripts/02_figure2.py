@@ -20,4 +20,4 @@ df = pd.DataFrame([[e in st for st in sets] for e in all_elems], columns = set_n
 df_up = df.groupby(set_names).size()
 plot(df_up, orientation='horizontal')
 
-plt.savefig('figures/figure2.pdf',format='pdf')
+plt.savefig('figures/figure2.png',format='png')
